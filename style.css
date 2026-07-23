@@ -1,0 +1,56 @@
+/* styles.css */
+
+body {
+    /* Beautiful modern gradient background */
+    background: linear-gradient(135deg, #6a11cb, #2575fc, #00d4ff);
+
+    /* Sets a clean, modern font */
+    font-family: Arial, sans-serif;
+
+    /* Sets the text color to white for better contrast */
+    color: white;
+
+    /* Removes default margin */
+    margin: 0;
+
+    /* Removes default padding */
+    padding: 0;
+
+    /* Enables flexbox layout */
+    display: flex;
+
+    /* Centers content horizontally */
+    justify-content: center;
+
+    /* Centers content vertically */
+    align-items: center;
+
+    /* Makes the body take the full height of the viewport */
+    height: 100vh;
+}
+
+h1 {
+    /* Sets the size of the header text */
+    font-size: 2em;
+
+    /* Centers the header text */
+    text-align: center;
+
+    /* Makes the text bold */
+    font-weight: bold;
+
+    /* Adds spacing between letters */
+    letter-spacing: 2px;
+
+    /* Adds a subtle shadow for a glowing effect */
+    text-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+
+    /* Smooth transition for hover effect */
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+/* Hover effect */
+h1:hover {
+    transform: scale(1.08);
+    color: #ffe082;
+}
